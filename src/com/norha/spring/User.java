@@ -5,7 +5,7 @@ import org.springframework.context.support.FileSystemXmlApplicationContext;
 public class User {
 	public static void main(String[] args) {
 		
-		FileSystemXmlApplicationContext context = new FileSystemXmlApplicationContext("Beans.xml");
+		FileSystemXmlApplicationContext context = new FileSystemXmlApplicationContext("BeanScope.xml");
 		
 		context.close();
 	}
