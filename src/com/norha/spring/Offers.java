@@ -6,6 +6,12 @@ public class Offers {
 	public String getOffer() {
 		return offer;
 	}
+	public void start() {
+		System.out.println("Sarted");
+	}
+	public void ends() {
+		System.out.println("ended");
+	}
 
 	public void setOffer(String offer) {
 		this.offer = offer;

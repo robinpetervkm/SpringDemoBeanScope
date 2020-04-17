@@ -22,3 +22,25 @@ public class User {
 		context.close();
 	}
 }
+
+/********************************************
+Setps
+*****
+
+
+1 Instantiation
+2 Populate Properties
+3 Sets the Bean Name
+4 Sets Bean Factory
+5 Pre-initiazation (Sets Property)
+6 Initializing Bean
+7 Call custom init-method
+8 Post-Intializing Bean
+9 Bean Ready for use
+
+Steps
+
+1 Destroy Bean
+2 call Custom Destroy Method
+
+*****************************************/
