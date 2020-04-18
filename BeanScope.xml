@@ -6,3 +6,4 @@
 	<bean id="offers" class="com.norha.spring.Offers" scope="prototype" init-method="start" destroy-method="ends"></bean> <!--  Default scope is Sigleton -->
 	
 </beans> 
+
