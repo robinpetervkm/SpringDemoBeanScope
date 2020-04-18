@@ -10,9 +10,12 @@ public class User {
 		
 		Offers offers1 = context.getBean("offers",Offers.class);
 		Offers offers2 = (Offers) context.getBean("offers");
-		
+		offers1.setOffer("10% offer this Month");
 		System.out.println("offers1 : "+offers1.getOffer());
 		System.out.println("offers2 : "+offers2.getOffer());
+		
+		System.out.println("Offer 1 : location := "+offers1);
+		System.out.println("Offer 2 : location := "+offers2);
 		
 		context.close();
 	}
